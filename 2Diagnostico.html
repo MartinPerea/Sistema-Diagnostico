@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Diagnostico</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="2Diagnostico.css">
+</head>
+<body >
+    <div class="container" >
+        <table  class="table table-bordered border-dark" >
+    <tr>
+        <th colspan="2" class="BDescripcion">En esta sección haremos preguntas sobre la información general de su empresa.</th>
+        <td>Respuestas</td>
+    </tr>
+
+    <tr>
+        <td>BLOQUE 1</td>
+        <td>Resumen ejecutivo de la empresa</td>
+        <td></td>
+    </tr>
+
+    <tr>
+<td>Bloque1A</td>
+<td class="BPregunta">¿Tiene definido los OBJETIVOS de su empresa?</td>
+<td><input type="radio" name="RBloque1A" value="20">Sí (20)
+    <br>
+    <input type="radio" name="RBloque1A" value="0">No (0)
+</td>
+    </tr>
+
+    <tr>
+<td>Bloque1B</td>
+<td class="BPregunta">¿Tiene definida la MISIÓN de su empresa?</td>
+<td><input type="radio" name="RBloque1B" value="20">Sí (20)
+    <br>
+    <input type="radio" name="RBloque1B" value="0">No (0)
+</td>
+    </tr>
+
+    <tr>
+<td>Bloque1C</td>
+<td class="BPregunta">¿Tiene definida la VISIÓN de su empresa?</td>
+<td>
+<input type="radio" name="RBloque1C" value="20">Sí (20)
+<br>
+<input type="radio" name="RBloque1C" value="0">No (0)
+</td>
+    </tr>
+
+    <tr>
+<td>Bloque1D</td>
+<td class="BPregunta">¿Cuenta con el ORGANIGRAMA de su empresa?</td>
+<td>
+<input type="radio" name="RBloque1D" value="20">Sí (20)
+<br>
+<input type="radio" name="RBloque1D" value="0">No (0)
+</td> </tr>
+
+    <tr>
+<td>Bloque1E</td>
+<td class="BPregunta">¿Tiene ASESORES EXTERNOS?</td>
+<td>
+<input type="radio" name="RBloque1E" value="7">Sí (7)
+<br>
+<input type="radio" name="RBloque1E" value="0">No (0)
+</td>
+    </tr>
+
+    <tr>
+<td>Bloque1F</td>
+<td class="BPregunta">¿Cuenta con dos o más PROPIETARIOS y/o ACCIONISTAS?</td>
+<td>
+<input type="radio" name="RBloque1F" value="13">Sí (13)
+<br>
+<input type="radio" name="RBloque1F" value="0">No (0)
+</td>
+</tr> </table>
+
+
+<table class="table table-bordered border-dark">
+<tr>
+    <th colspan="2" class="BDescripcion">En esta sección haremos preguntas sobre los antecedentes históricos de su empresa</th>
+    <td>Respuestas</td>
+</tr>
+
+<tr>
+    <td>BLOQUE 2</td>
+    <td>Historia y situación actual.</td>
+    <td></td> </tr>
+
+<tr>
+<td>Bloque2A</td>
+<td class="BMultiple">¿Cuál es su FACTURACIÓN aproximada mensual?</td>
+<td class="BMultiple" style="text-align: right;">
+<input type="radio" name="RBloque2A" value="45"> (45) Más de $999,999.00 MXN
+<br>
+<input type="radio" name="RBloque2A" value="25"> (25) Más de $500,000.00 MXN
+<br>
+<input type="radio" name="RBloque2A" value="15"> (15) Más de $99,000.00 MXN
+<br>
+<input type="radio" name="RBloque2A" value="0"> (0) Menos de $99,000.00 MXN
+</td>
+</tr>
+
+<tr>
+<td>Bloque2B</td>
+<td class="BPregunta">¿Cuenta con información de sus COSTOS mensual, anual o de más de un año?</td>
+<td>
+<input type="radio" name="RBloque2B" value="30">Sí (30)
+<br>
+<input type="radio" name="RBloque2B" value="0">No (0)
+</td> </tr>
+
+<tr>
+<td>Bloque2C</td>
+<td class="BMultiple">¿A qué SECTOR pertenece tu empresa?</td>
+<td class="BMultiple" style="text-align: right;">
+<input type="radio" name="RBloque2C" value="25"> (25) Sector primario
+<br>
+<input type="radio" name="RBloque2C" value="25"> (25) Sector secundario
+<br>
+<input type="radio" name="RBloque2C" value="25"> (25) Sector terciario
+</td> </tr>
+
+<table class="table table-bordered border-dark">
+<tr>
+<th colspan="2" class="BDescripcion">En esta sección haremos preguntas sobre el estado tecnológico actual de su empresa.</th>
+<td>Respuestas</td>
+</tr>
+
+<tr>
+<td>BLOQUE 3</td>
+<td>Situación estratégica y acceso a tecnología</td>
+<td></td> </tr>
+
+<tr>
+<td>Bloque3A</td>
+<td class="BOpciones">¿Cuenta con alguna de las siguientes herramientas TECNOLÓGICAS?</td>
+<td class="BOpciones" style="text-align: right;">
+    <input type="checkbox" id="ROpciones1" name="RBloque3A" value="10"> (10) Equipos
+    <br>
+    <input type="checkbox" id="Ropciones2" name="RBloque3A" value="10"> (10) Hardware
+    <br>
+    <input type="checkbox" id="Ropciones3" name="RBloque3A" value="10"> (10) Software
+    <br>
+    <input type="checkbox" id="Ropciones4" name="RBloque3A" value="0"> (0) No cuento con tecnología
+    <br>
+</td> </tr>
+
+<tr>
+<td>Bloque3B</td>
+<td class="BPregunta">Servicios futuros: ¿Desea desarrollar NUEVAS LÍNEAS DE NEGOCIO?</td>
+<td>
+<input type="radio" name="RBloque3B" value="15">Sí (15)
+<br>
+<input type="radio" name="RBloque3B" value="0">No (0)
+</td>
+</tr>
+
+<tr>
+<td>Bloque3C</td>
+<td class="BPregunta">¿Cuenta usted con un PLAN DE MARKETING o ESTRATEGIA COMERCIAL?</td>
+<td>
+<input type="radio" name="RBloque3C" value="20">Sí (20)
+<br>
+<input type="radio" name="RBloque3C" value="0">No (0)
+</td> </tr>
+
+<tr>
+<td>Bloque3D</td>
+<td class="BPregunta">¿Realiza CAPACITACIONES MENSUALES al personal de su empresa? </td>
+<td>
+<input type="radio" name="RBloque3D" value="20">Sí (20)
+<br>
+<input type="radio" name="RBloque3D" value="0">No (0)
+</td>
+</tr>
+
+<tr>
+<td>Bloque3E</td>
+<td class="BPregunta">¿Conoce su COMPETENCIA?</td>
+<td>
+<input type="radio" name="RBloque3E" value="15">Sí (15)
+<br>
+<input type="radio" name="RBloque3E" value="0">No (0)
+</td>
+</tr></table>
+
+
+<table class="table table-bordered border-dark"> <tr>
+<th colspan="2" class="BDescripcion">En esta sección haremos preguntas sobre los procesos de su empresa</th>
+<td>Respuestas</td> </tr>
+
+<tr>
+<td>BLOQUE 4</td>
+<td>Identificación de procesos</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Bloque4A</td>
+<td class="BPregunta">¿Cuenta con sus ÁREA DEFINIDAS (ORGANIGRAMA)?</td>
+<td>
+<input type="radio" name="RBloque4A" value="60">Sí (60)
+<br>
+<input type="radio" name="RBloque4A" value="0">No (0)
+</td></tr>
+
+<tr>
+<td>Bloque4B</td>
+<td class="BPregunta">¿Cuenta con la DESCRIPCIÓN DE PUESTOS de su empresa?</td>
+<td>
+<input type="radio" name="RBloque4B" value="20">Sí (20)
+<br>
+<input type="radio" name="RBloque4B" value="0">No (0)
+</td> </tr>
+
+<tr>
+<td>Bloque4C</td>
+<td class="BPregunta">¿Cuenta con sus PROCEDIMIENTOS DOCUMENTADOS?</td>
+<td>
+<input type="radio" name="RBloque4C" value="20">Sí (20)
+<br>
+<input type="radio" name="RBloque4C" value="0">No (0)
+</td> </tr>
+</table>
+
+
+<table class="table table-bordered border-dark">
+<tr> <th colspan="2">FORM CLIENTE</th> </tr>
+
+<tr> <td>Email</td> <td><input type="email" id="emailInput"></td> </tr>
+
+<tr> <td>Nombre</td> <td><input type="text" id="nombreInput"></td> </tr>
+
+<tr> <td>Apellido</td> <td><input type="text" id="apellidoInput"></td> </tr>
+
+<tr> <td>Empresa</td> <td><input type="text" id="empresaInput"></td> </tr>
+
+<tr> <td>Telefono</td> <td><input type="number" id="telefonoInput"></td> </tr>
+
+<tr> <td>Giro</td> <td><input type="text" id="giroInput"></td> </tr>
+</table>
+
+<button class="btn btn-primary" type="button" onclick="RESUMEN()">Resumen</button>
+<br>
+<script src="2Diagnostico.js"></script>
+
+<table id="RTablaB1" class="table table-bordered border-dark">
+</table>
+
+<table id="RTablaB2" class="table table-bordered border-dark">
+</table>
+
+<table id="RTablaB3" class="table table-bordered border-dark">
+</table>
+
+<table id="RTablaB4" class="table table-bordered border-dark">
+</table>
+
+<table id="RTablaDatos" class="table table-bordered border-dark">
+</table>
+
+
+</div>
+</body>
+</html>
